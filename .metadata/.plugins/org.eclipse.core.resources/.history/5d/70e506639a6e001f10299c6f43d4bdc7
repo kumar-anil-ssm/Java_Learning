@@ -1,0 +1,29 @@
+package concurrentCollections;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListProblem {
+
+	
+
+	public static void main(String[] args) {
+
+		ArrayList<String> Courses = new ArrayList<>();
+		Courses.add("Java");
+		Courses.add("Python");
+		Courses.add("Cobra");
+		Courses.add("React");
+		
+		  Iterator<String> iterator = Courses.iterator();
+		  while(iterator.hasNext()) {
+			  
+			  String Course = iterator.next();
+			  System.out.println(Course);
+			  if(Courses.equals("React")) {
+				  Courses.remove(Courses);
+			  }
+		  }
+	}
+
+}

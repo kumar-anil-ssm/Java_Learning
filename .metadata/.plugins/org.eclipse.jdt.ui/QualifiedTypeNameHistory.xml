@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="com.project.inheritance.Manager"/>
+    <fullyQualifiedTypeName name="com.project.inheritance.Developer"/>
+    <fullyQualifiedTypeName name="java8.methodref.StaticMethods.WorkInter"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java8.methodref.constructor.Provider"/>
+    <fullyQualifiedTypeName name="java8.methodref.constructor.Student"/>
+</qualifiedTypeNameHistroy>

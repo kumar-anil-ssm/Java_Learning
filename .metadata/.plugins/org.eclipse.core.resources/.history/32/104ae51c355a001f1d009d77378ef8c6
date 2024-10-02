@@ -1,0 +1,25 @@
+package set;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Random;
+
+public class DifferentSets {
+
+	public static void main(String[] args) {
+		Random random=new Random();
+		HashSet<Integer> set=new HashSet<>(); //HasSet does not maintain order
+		LinkedHashSet<Integer> set1=new LinkedHashSet<>();
+		
+		for(int i=1;i<10;i++) {
+			int nums=random.nextInt(100);
+			set.add(nums);
+			set1.add(nums);
+			System.out.print(nums+",");
+		}
+		System.out.println();
+		System.out.println("HashSet Element:"+set);
+		System.out.println("LinkedHashSet Element:"+set1);
+	}
+
+}

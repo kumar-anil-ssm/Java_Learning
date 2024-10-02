@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JDK7.java&apos; to &apos;inheritance/src/singleInheritance&apos;&#x0D;&#x0A;- Original project: &apos;inheritance&apos;&#x0D;&#x0A;- Destination element: &apos;inheritance/src/singleInheritance&apos;&#x0D;&#x0A;- Original element: &apos;singleInheritance.JDK7.java&apos;" description="Copy compilation unit" destination="/src&lt;singleInheritance" element1="/src&lt;singleInheritance{JDK7.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1720094253313" units="1" version="1.0"/>
+</session>
